@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: trip-service
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/tripdb
+
+server:
+  port: 8083
