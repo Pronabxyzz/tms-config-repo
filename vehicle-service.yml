@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: vehicle-service
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/vehicledb
+
+server:
+  port: 8082
